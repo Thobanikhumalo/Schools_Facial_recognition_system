@@ -107,8 +107,8 @@ class App:
         # Configure your email settings
         smtp_server = 'smtp.gmail.com'  # SMTP server address
         smtp_port = 587  # SMTP server port
-        sender_email = 'msawenkosimashobane905@gmail.com'
-        sender_password = 'onsb smde huvs hssh'
+        sender_email = 'your email'
+        sender_password = 'your password'
 
         # Get the recipient email (parent's email) based on the provided username
         recipient_email = self.get_parent_email(username)
